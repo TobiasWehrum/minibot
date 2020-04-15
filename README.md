@@ -14,4 +14,4 @@ A Discord bot for the http://berlinminijam.de.
 5. Rename `.env.template` to `.env` and put your bot token from the last step after `BOT_TOKEN=`.
 6. Add your server to the `guildDataById` section of `config.json`, filling in the category IDs (turn on developer mode in User Settings -> Appearance -> Enable Developer Mode and then get the category IDs via right click and "Copy ID").
 7. Add your bot to your server via this link, replacing YOURCLIENTID with the client ID of your bot application from step 4: https://discordapp.com/api/oauth2/authorize?client_id=YOURCLIENTID&permissions=16&scope=bot
-8. Done!
+8. Start the bot via `node .`.
