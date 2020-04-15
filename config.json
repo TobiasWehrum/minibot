@@ -1,0 +1,17 @@
+{
+    "prefix": "!",
+    "guildDataById": {
+        "700035945315041321": {
+            "brainstormingCategoryId": "700058014685724742",
+            "brainstormingArchiveCategoryId": "700066254131822682",
+            "teamCategoryId": "700077872332800131",
+            "teamArchiveCategoryId": "700077895745405029"
+        },
+        "687979323986411553": {
+            "brainstormingCategoryId": "700086403807051816",
+            "brainstormingArchiveCategoryId": "700086471943651330",
+            "teamCategoryId": "693462292255342632",
+            "teamArchiveCategoryId": "700086540780437514"
+        }
+    }
+}
