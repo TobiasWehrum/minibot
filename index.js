@@ -148,8 +148,13 @@ async function commandArchive(message, args, guildData) {
         var isTeamChannel = (channel.parentID === teamCategoryId);
         if (isBrainstormingChannel || isTeamChannel) {
             if (channel.type == "text") {
+				let newName = prefix + channel.name;
+				if (newName.length > 100) {
+					newName = newName.substring(0, 100);
+				}
+				console.log("Archiving... '" + newName + "'");
                 await channel.edit({
-                    name: prefix + channel.name,
+                    name: newName,
                     parentID: isBrainstormingChannel ? brainstormingArchiveCategoryId : teamArchiveCategoryId
                 });
             } else if (channel.type == "voice") {
